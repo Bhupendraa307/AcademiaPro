@@ -16,10 +16,7 @@ const profileRoutes = require('./routes/profile');
 const notificationRoutes = require('./routes/notification');
 
 const app = express();
-app.use(cors({
-  origin: ['https://academia-pro-jet.vercel.app'],
-  credentials: true, // If using cookies or sessions
-}));
+app.use(cors());
 
 app.use(express.json());
 
