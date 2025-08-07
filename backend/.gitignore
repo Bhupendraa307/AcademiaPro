@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+
+# logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+
+# misc
+npm-debug.log*
+.env.*
+
+...existing code...
+backend/.env
+...existing code...
