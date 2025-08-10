@@ -22,6 +22,7 @@ const cors = require("cors");
 
 app.use(cors({
     origin: "https://academia-pro-jet.vercel.app", // your Vercel URL
+    origin:"https://academiapro-fyr0.onrender.com"
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
