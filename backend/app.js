@@ -15,10 +15,9 @@ const adminRoutes = require('./routes/admin');
 const profileRoutes = require('./routes/profile');
 const notificationRoutes = require('./routes/notification');
 
-const app = express();
-// app.use(cors());
-
-const cors = require("cors");
+// const app = express();
+// // app.use(cors());
+ 
 
 app.use(cors({
     origin: "https://academia-pro-jet.vercel.app", // your Vercel URL
