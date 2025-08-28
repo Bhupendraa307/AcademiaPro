@@ -83,7 +83,7 @@ const app = express();
 // CORS setup for multiple origins
 const allowedOrigins = [
   "https://academia-pro-jet.vercel.app",
-  "https://academiapro-fyr0.onrender.com"
+  "https://academiapro-u865.onrender.com/"
 ];
 
 app.use(cors({
